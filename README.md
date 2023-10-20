@@ -11,10 +11,13 @@ if let fixedURL = URL(string: "https://" + urlString) {
 ```
 
 ## Prerequisites
-You will need to have Xcode installed and the link is below:
+
+urlTextField and webView need "Ctrl + Drag" connections to ViewController.swift here: 
 ```
-https://developer.apple.com/xcode/
+@IBOutlet weak var urlTextField: NSTextField!
+@IBOutlet weak var webView: WKWebView!
 ```
+You will need to install Xcode and the link is below:
 
 * [Swift](https://www.swift.org/) - Programming Language
 * [Xcode](https://developer.apple.com/xcode/) - IDE for macOS
